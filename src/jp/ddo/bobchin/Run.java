@@ -20,6 +20,8 @@ public class Run {
 			jp.ddo.bobchin.strategy.Main.run(r.nextInt(), r.nextInt(), 10000);
 		} else if (args[0].toUpperCase().equals("COMPOSITE")) {
 			jp.ddo.bobchin.composite.Main.run();
+		} else if (args[0].toUpperCase().equals("VISITOR")) {
+			jp.ddo.bobchin.visitor.Main.run();
 		}
 	}
 
